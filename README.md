@@ -13,12 +13,13 @@ ESP32 controller (PCBs, screen, case) with 1 encoder and 2 steppers. It can be u
 - [12-pin same-side 1mm pitch FFC connector 5cm](https://www.lcsc.com/product-detail/_JUSHUO-_C2857580.html)
 - 4x 3D-printed plastic parts
 - 13x M3 bolts
+- Optionally, 2x M5 threaded inserts for mounting
 
 # Printed circuit boards
 
-Schematics and PCB layout can be viewed and edited using EasyEDA by copying [respective projects](https://github.com/kachurovskiy/espina/tree/main/easyeda) to your local computer and opening them in the editor.
+Schematics and PCB layout can be viewed and edited using EasyEDA by copying [projects from `easyeda` folder](https://github.com/kachurovskiy/espina/tree/main/easyeda) to your local computer and opening them in the editor.
 
-Gerber, BOM and pick-and-place files can be found in the [respective folder](https://github.com/kachurovskiy/espina/tree/main/gerber). Smallest production run of these boards on JLCPCB would cost [$200 for 5 boards each](https://user-images.githubusercontent.com/517919/224640478-c27c72a2-1f7f-4686-9f80-fe1553a87b9b.png).
+Gerber, BOM and pick-and-place files can be found in the [`gerber` folder](https://github.com/kachurovskiy/espina/tree/main/gerber). Smallest production run of these boards on JLCPCB would cost [$200 for 5 boards each](https://user-images.githubusercontent.com/517919/224640478-c27c72a2-1f7f-4686-9f80-fe1553a87b9b.png).
 
 ![PCB](images/espina-pcb.png)
 
