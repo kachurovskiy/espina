@@ -44,8 +44,8 @@ One sample program for this controller is a single-axis electronic lead screw fo
 
 # Project status
 
-This project "archived" - I decided to completely re-design it so making this historical version available for free. Drawbacks of the current design are poor LCD viewing angles, older ESP32 version, lack of ESD protection, only 2 axes, old-style USB port. This version of the ELS software will not be developed or maintained - however it might be a nice starting point if you'd like to make something similar.
+This project "archived" - I decided to completely re-design it so making this historical version available for free. Drawbacks of the current design are suboptimal LCD viewing angles, older ESP32 version, lack of ESD protection, only 2 axes, old-style USB port. This version of the ELS software might not be developed much further.
 
 # Contributions
 
-Please report any bugs or problems. For changes and improvements, it's suggested to fork the repository and develop separately.
+Please report any bugs or problems. For changes and improvements, consider forking the repository and developing in parallel.
