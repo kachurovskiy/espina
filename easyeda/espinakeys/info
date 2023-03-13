@@ -1,0 +1,92 @@
+{
+  "uuid": "6abc4dbfb39efd669e4e38269b6310a7",
+  "path": "Offline/espinakeys",
+  "name": "espinakeys",
+  "content": "",
+  "created_at": "2022-12-07 20:30:30",
+  "updated_at": "2023-03-13 07:24:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "52e0ae90cd7044e56bdb39017fcd665c",
+      "title": "espinakeys",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c659d447b4234a28a467dead7bdf00e3": 25,
+        "4b151c372d9419a94c0e505d9d2018d3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "KH-6X6X5H-STM",
+          25,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+          "DISPLAY,DOWN,F1,F2,F3,GO,LDOWN,LEFT,LLEFT,LRIGHT,LUP,MEASURE,MINUS,MODE,PLUS,REVERSE,RIGHT,SETTINGS,STEP,STOP,UP,X0,XENA,Z0,ZENA",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2837531",
+            "BOM_Manufacturer": "kinghelm(金航标)",
+            "BOM_Manufacturer Part": "KH-6X6X5H-STM",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
+            "uuid": "c659d447b4234a28a467dead7bdf00e3"
+          }
+        ],
+        [
+          "FPCConnector Pull type 12PIN 1MM Under the next",
+          1,
+          "FPC-SMD_AFA07-S12FCC-00",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "JS(钜硕电子)",
+            "BOM_Manufacturer Part": "AFA07-S12FCC-00",
+            "BOM_Supplier Part": "C14431",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "320a43f31490408cb870e51f482ee98e",
+            "uuid": "4b151c372d9419a94c0e505d9d2018d3"
+          }
+        ]
+      ],
+      "updateTime": 1678688348,
+      "createTime": 1670441430,
+      "histories": [],
+      "created_at": "2022-12-07 20:30:30",
+      "updated_at": "2023-03-13 07:19:08"
+    },
+    {
+      "uuid": "c39e9b49d8e3c92a9deba154366eb11d",
+      "puuid": "6abc4dbfb39efd669e4e38269b6310a7",
+      "title": "PCB_espinakeys",
+      "filename": "PCB_espinakeys.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cbb783650c0145abbbc29a9941eb1b0b": 25,
+        "320a43f31490408cb870e51f482ee98e": 1
+      },
+      "BOM": [],
+      "updateTime": 1678687848,
+      "createTime": 1675366036,
+      "histories": [],
+      "created_at": "2023-02-02 20:27:16",
+      "updated_at": "2023-03-13 07:10:48"
+    }
+  ],
+  "sort": [],
+  "title": "espinakeys",
+  "foldername": "espinakeys",
+  "schfilename": "espinakeys.json",
+  "schfilemtime": 1678688643911
+}
