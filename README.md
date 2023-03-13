@@ -36,7 +36,7 @@ Case is designed to be 3D-printed and consists of 4 parts. It assembles together
 
 ![Panel Figma](images/espina-bw-panel.png)
 
-Front panel can be printed on a regular printer from [this PDF](images/espina-bw-panel.pdf) with 90% scale, window cut out with a knife and then laminated.
+Front panel can be printed on a regular printer from [this PDF](images/espina-bw-panel.pdf) with 90% scale, window cut out with a knife and then laminated. [Medium thickness double-sided tape is applied](https://i.imgur.com/JJHeC12.jpg) on the case around buttons and front panel is glued to it.
 
 If you want to design your own panel, you can start by editing [this file](images/espina-bw-panel.fig) on [figma.com](https://www.figma.com/) for free.
 
