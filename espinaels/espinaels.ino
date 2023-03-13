@@ -43,7 +43,7 @@
 #define SOFTWARE_VERSION 1
 
 // To be changed whenever a different PCB / encoder / stepper / ... design is used.
-#define HARDWARE_VERSION 3
+#define HARDWARE_VERSION 1
 
 #define Z_DIR 16
 #define Z_STEP 17
@@ -489,7 +489,7 @@ void setup()
   updateDisplay(false /*beforeRunning*/);
 
   Serial.begin(9600);
-  Serial.print("NanoEls H");
+  Serial.print("Espina H");
   Serial.print(HARDWARE_VERSION);
   Serial.print(" V");
   Serial.println(SOFTWARE_VERSION);
@@ -655,7 +655,7 @@ void splashScreen() {
 #ifndef TEST
   lcd.clear();
   lcd.setCursor(6, 1);
-  lcd.print("NanoEls");
+  lcd.print("Espina");
   lcd.setCursor(6, 2);
   lcd.print("H" + String(HARDWARE_VERSION) + " V" + String(SOFTWARE_VERSION));
   lcdHash = 0;
