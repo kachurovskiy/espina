@@ -689,13 +689,11 @@ void IRAM_ATTR onAsyncTimer() {
   setDir(dupr > 0);
 
   DLOW(Z_STEP);
-  DLOW(X_STEP);
   // dupr can change while we're in async mode, keep updating timer frequency.
   timerAlarmWrite(async_timer, getTimerLimit(), true);
   stepStartMicros = micros();
   loopCounter = 0;
   DHIGH(Z_STEP);
-  DHIGH(X_STEP);
 }
 
 void setMode(int value) {
@@ -718,7 +716,7 @@ void setMode(int value) {
     timerAlarmWrite(async_timer, getTimerLimit(), true);
     timerAlarmEnable(async_timer);
 
-    // Pretent that stepper is already running to prevent a screen update during the
+    // Pretend that stepper is already running to prevent a screen update during the
     // async movement initialization.
     stepStartMicros = micros();
   } else if (mode == MODE_MULTISTART) {
@@ -1175,7 +1173,6 @@ void step(bool dir, long steps) {
   long minDelay = steps == 1 ? 1 : PULSE_MIN_US;
   for (int i = 0; i < steps; i++) {
     DLOW(Z_STEP);
-    DLOW(X_STEP);
     long constAccelDelay = 1000000 / (1000000 / stepDelayUs + ACCELERATION * stepDelayUs / 1000);
     stepDelayUs = min(long(PULSE_MAX_US), max(minDelay, constAccelDelay));
     unsigned long t = micros();
@@ -1183,7 +1180,6 @@ void step(bool dir, long steps) {
     stepStartMicros = t;
     delayMicroseconds(5);
     DHIGH(Z_STEP);
-    DHIGH(X_STEP);
     // Don't wait during the last step, it will pass by itself before we get back to stepping again.
     // This condition is the reason moving left-right is limited to 600rpm but with ELS On and spindle
     // gradually speeding up, stepper can go to ~1200rpm.
@@ -1226,7 +1222,6 @@ void stepperEnable(bool value) {
     stepperEnableCounter++;
     if (value == 1) {
       DHIGH(Z_ENA);
-      DHIGH(X_ENA);
       // Stepper driver needs some time before it will react to pulses.
       delay(100);
     }
@@ -1234,7 +1229,6 @@ void stepperEnable(bool value) {
     stepperEnableCounter--;
     if (stepperEnableCounter == 0) {
       DLOW(Z_ENA);
-      DLOW(X_ENA);
     }
   }
 }
