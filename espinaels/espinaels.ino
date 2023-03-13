@@ -70,8 +70,8 @@
 // Code for each button calculated as row*100+column
 #define B_LEFT  33
 #define B_RIGHT 214
-#define B_MINUS 1335
-#define B_PLUS  1235
+#define B_MINUS 1332
+#define B_PLUS 1232
 #define B_ON 1533
 #define B_OFF 1514
 #define B_STOPL 1314
@@ -79,8 +79,8 @@
 #define B_DISPL 1334
 #define B_STEP 1234
 #define B_MODE 232
-#define B_MEASURE 1332
-#define B_REVERSE 1232
+#define B_MEASURE 1335
+#define B_REVERSE 1235
 
 #define ADDR_EEPROM_VERSION 0 // takes 1 byte
 #define ADDR_ONOFF 1 // takes 1 byte
