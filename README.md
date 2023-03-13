@@ -2,7 +2,7 @@ This project is provided "as is", without warranty of any kind ([see license](LI
 
 # espina
 
-![Collage](https://user-images.githubusercontent.com/517919/224823129-08fe7ee9-b9c8-43bb-8e93-6d2dec89edef.png)
+![Collage](images/espina-explosion-collage.jpg)
 
 ESP32 controller (PCBs, screen, case) with 1 encoder and 2 steppers. It can be used to control machinery e.g. a metal lathe or a gear cutter. Device can easily be programmed with Arduino or similar IDEs via a USB port.
 
