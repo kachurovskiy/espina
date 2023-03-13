@@ -32,13 +32,11 @@ Case is designed to be 3D-printed and consists of 4 parts. It assembles together
 
 # Front panel
 
-![Panel Figma](images/espina-figma.png)
+![Panel Figma](images/espina-bw-panel.png)
 
-Front panels can be printed at home or ordered on [jrpanel.com](https://www.jrpanel.com/panel/buy/) for around $200 (if you reduce # of colors) however you might want to design your own one based on the button functions in your software.
+Front panel can be printed on a regular printer from [this PDF](images/espina-bw-panel.pdf) with 90% scale, window cut out with a knife and then laminated.
 
-![Panel SVG](images/panel.svg)
-
-There's also a [PDF version](images/panel.pdf). You can edit the SVG on [figma.com](https://www.figma.com/) for free.
+If you want to design your own panel, you can start by editing [this file](images/espina-bw-panel.fig) on [figma.com](https://www.figma.com/) for free.
 
 # Software
 
