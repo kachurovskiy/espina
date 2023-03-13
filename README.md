@@ -1,3 +1,5 @@
+This project is provided "as is", without warranty of any kind ([see license](LICENSE)).
+
 # espina
 
 ESP32 controller (PCBs, screen, case) with 1 encoder and 2 steppers. It can be used to control machinery e.g. a metal lathe or a gear cutter. Device can easily be programmed with Arduino or similar IDEs via a USB port.
@@ -6,11 +8,11 @@ ESP32 controller (PCBs, screen, case) with 1 encoder and 2 steppers. It can be u
 
 # Parts
 
-- 2 custom PCBs
+- 2x custom PCBs
 - LCD 2004 standard 4-line screen
 - [12-pin same-side 1mm pitch FFC connector 5cm](https://www.lcsc.com/product-detail/_JUSHUO-_C2857580.html)
-- 4 3D-printed plastic parts
-- 13 M3 bolts
+- 4x 3D-printed plastic parts
+- 13x M3 bolts
 
 # Printed circuit boards
 
@@ -32,4 +34,20 @@ Case is designed to be 3D-printed and consists of 4 parts. It assembles together
 
 ![Panel Figma](images/espina-figma.png)
 
+Front panels can be printed at home or ordered on [jrpanel.com](https://www.jrpanel.com/panel/buy/) for around $200 (if you reduce # of colors) however you might want to design your own one based on the button functions in your software.
+
 ![Panel SVG](images/panel.svg)
+
+There's also a [PDF version](images/panel.pdf). You can edit the SVG on [figma.com](https://www.figma.com/) for free.
+
+# Software
+
+One sample program for this controller is a single-axis electronic lead screw for a metal lathe, see [espinaels](https://github.com/kachurovskiy/espina/tree/main/espinaels) folder.
+
+# Project status
+
+This project "archived" - I decided to completely re-design it so making this historical version available for free. Drawbacks of the current design are poor LCD viewing angles, older ESP32 version, lack of ESD protection, only 2 axes, old-style USB port. This version of the ELS software will not be developed or maintained - however it might be a nice starting point if you'd like to make something similar.
+
+# Contributions
+
+Please report any bugs or problems. For changes and improvements, it's suggested to fork the repository and develop separately.
