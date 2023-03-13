@@ -28,7 +28,7 @@ Note: when ordering, JLCPCB sometimes doesn't recognize the FFC terminal part. U
 
 # Case
 
-Case is designed to be 3D-printed and consists of 4 parts. It assembles together with 12 M3 bolts, each 5mm long. Galvanized steel bolts are ideal since printed threads are usually too tight for nylon bolts.
+Case is designed to be 3D-printed and [consists of 4 parts](case). It assembles together with 12 M3 bolts, each 5mm long. Galvanized steel bolts are ideal since printed threads are usually too tight for nylon bolts. FreeCAD source file is also provided so it's easy to change models.
 
 # Front panel
 
