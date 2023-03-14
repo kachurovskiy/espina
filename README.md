@@ -15,6 +15,10 @@ ESP32 controller (PCBs, screen, case) with 1 encoder and 2 steppers. It can be u
 - 13x M3 bolts
 - Optionally, 2x M5 threaded inserts for mounting
 
+# Schematic
+
+![espina schematic](https://user-images.githubusercontent.com/517919/225130069-4ac632ac-0fc4-4451-83cf-e83b1c924c07.png)
+
 # Printed circuit boards
 
 Schematics and PCB layout can be viewed and edited using EasyEDA by copying [projects from `easyeda` folder](https://github.com/kachurovskiy/espina/tree/main/easyeda) to your local computer and opening them in the editor.
